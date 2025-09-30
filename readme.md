@@ -8,7 +8,6 @@ This is a console-based implementation of the Monty Hall problem in Node.js, fea
 
 ```
 git clone <https://github.com/AzaS31/Rick-and-Morty-Game>
-cd project
 ```
 
 2. Install dependencies:
