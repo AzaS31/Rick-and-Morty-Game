@@ -2,37 +2,6 @@
 
 This is a console-based implementation of the Monty Hall problem in Node.js, featuring Rick as the player and different Morty strategies. The game includes detailed statistics to analyze winning probabilities.
 
----
-
-project/
-├── src/
-│   ├── cli/
-│   │   └── CLIParser.js
-│   ├── core/
-│   │   ├── Game.js
-│   │   ├── GameEngine.js
-│   │   ├── GameFactory.js
-│   │   └── RoundManager.js
-│   ├── infra/
-│   │   └── provably-fair/
-│   │       ├── Commitment.js
-│   │       ├── CryptoUtils.js
-│   │       └── ProvablyFair.js
-│   ├── morties/
-│   │   ├── ClassicMorty.js
-│   │   ├── LazyMorty.js
-│   │   └── MortyBase.js
-│   ├── stats/
-│   │   └── Statistics.js
-│   ├── texts/
-│   │   └── messages.js
-│   ├── ui/
-│   │   └── ConsoleUI.js
-│   └── main.js
-└── package.json
-
----
-
 ## Installation
 
 1. Clone the repository:
