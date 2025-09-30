@@ -8,7 +8,7 @@ class CLIParser {
         if (args.length < 2) {
             throw new Error(
                 "Usage: node main.js <boxCount> <mortyPath>\n" +
-                "Example: node main.js 3 ./morties/ClassicMorty.js"
+                "Example: node main.js 3 ./src/morties/ClassicMorty.js"
             );
         }
 

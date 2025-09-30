@@ -7,7 +7,7 @@ async function main() {
         const gameEngine = GameFactory.create(boxCount, mortyPath);
         await gameEngine.start();
     } catch (error) {
-        console.error(`Ошибка: ${error.message}`);
+        console.error(`Error: ${error.message}`);
         process.exit(1);
     }
 }
