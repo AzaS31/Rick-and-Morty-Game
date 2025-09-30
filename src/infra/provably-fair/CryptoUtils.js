@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 function generateKey() {
-  return crypto.randomBytes(16).toString('hex');
+  return crypto.randomBytes(32).toString('hex');
 }
 
 function generateHMAC(key, value) {
