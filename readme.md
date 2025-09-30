@@ -7,7 +7,7 @@ This is a console-based implementation of the Monty Hall problem in Node.js, fea
 1. Clone the repository:
 
 ```
-git clone <your-repo-url>
+git clone <https://github.com/AzaS31/Rick-and-Morty-Game>
 cd project
 ```
 
