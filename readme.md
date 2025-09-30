@@ -6,29 +6,29 @@ This is a console-based implementation of the Monty Hall problem in Node.js, fea
 
 project/
 ├── src/
-│ ├── cli/
-│ │ └── CLIParser.js
-│ ├── core/
-│ │ ├── Game.js
-│ │ ├── GameEngine.js
-│ │ ├── GameFactory.js
-│ │ └── RoundManager.js
-│ ├── infra/
-│ │ └── provably-fair/
-│ │ ├── Commitment.js
-│ │ ├── CryptoUtils.js
-│ │ └── ProvablyFair.js
-│ ├── morties/
-│ │ ├── ClassicMorty.js
-│ │ ├── LazyMorty.js
-│ │ └── MortyBase.js
-│ ├── stats/
-│ │ └── Statistics.js
-│ ├── texts/
-│ │ └── messages.js
-│ ├── ui/
-│ │ └── ConsoleUI.js
-│ └── main.js
+│   ├── cli/
+│   │   └── CLIParser.js
+│   ├── core/
+│   │   ├── Game.js
+│   │   ├── GameEngine.js
+│   │   ├── GameFactory.js
+│   │   └── RoundManager.js
+│   ├── infra/
+│   │   └── provably-fair/
+│   │       ├── Commitment.js
+│   │       ├── CryptoUtils.js
+│   │       └── ProvablyFair.js
+│   ├── morties/
+│   │   ├── ClassicMorty.js
+│   │   ├── LazyMorty.js
+│   │   └── MortyBase.js
+│   ├── stats/
+│   │   └── Statistics.js
+│   ├── texts/
+│   │   └── messages.js
+│   ├── ui/
+│   │   └── ConsoleUI.js
+│   └── main.js
 └── package.json
 
 ---
