@@ -10,7 +10,4 @@ function generateHMAC(key, value) {
     .digest('hex');
 }
 
-module.exports = {
-  generateKey,
-  generateHMAC,
-};
+module.exports = { generateKey, generateHMAC };
